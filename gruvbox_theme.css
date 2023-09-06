@@ -78,6 +78,19 @@ div#cgit table.list tr:hover:not(.nohover) {
 }
 
 /************/
+/*** CODE ***/
+/************/
+div#cgit table.blob td.linenumbers,
+div#cgit table.blob {
+    border-color: var(--gray);
+}
+
+div#cgit table.blob td.linenumbers a {
+    color: var(--gray) !important;
+    text-decoration: none !important;
+}
+
+/************/
 /*** AGES ***/
 /************/
 .age-hours {
