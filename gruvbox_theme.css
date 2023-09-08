@@ -90,6 +90,10 @@ div#cgit table.blob td.linenumbers a {
     text-decoration: none !important;
 }
 
+.markdown-body code, .markdown-body tt {
+    background: var(--bg1) !important;
+}
+
 /************/
 /*** AGES ***/
 /************/
